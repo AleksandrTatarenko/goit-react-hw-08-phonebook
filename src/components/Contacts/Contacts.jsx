@@ -1,7 +1,7 @@
 import { useSelector, useDispatch } from "react-redux";
 import { useEffect } from "react";
-import { selectVisibleContacts, selectIsLoading, selectError } from "redux/selectors";
-import { fetchContacts } from "redux/operations";
+import { selectVisibleContacts, selectIsLoading, selectError } from "redux/contacts/selectors";
+import { fetchContacts } from "redux/contacts/operations";
 import { List, Item, Text, Error } from 'components/Contacts/Contacts.styled';
 import { ContactItem } from 'components/ContactItem/ContactItem';
 
