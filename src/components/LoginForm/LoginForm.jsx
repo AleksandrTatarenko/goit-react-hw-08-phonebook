@@ -13,7 +13,6 @@ export const LoginForm = () => {
                 password: form.elements.password.value,
             })  
         );
-        form.reset();
     };
 
     return (
